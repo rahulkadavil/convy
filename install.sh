@@ -1,2 +1,5 @@
-chmod 777 run.sh
-sudo ln -s /home/username/Downloads/convy/run.sh /usr/local/bin/convy
+chmod +x convy.py
+chmod +x convy.sh
+sudo cp convy.py /usr/local
+sudo cp convy.sh /usr/local
+ln -s /usr/local/convy.sh /usr/local/bin/convy

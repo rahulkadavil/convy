@@ -8,15 +8,15 @@ for i in s:
     print "Converter for " +i
     hexa = hex(ord(i))
     listhex.append(hexa)
-    listhex.append(":")
+    listhex.append(" ")
     print "Hexadecimal :" + hexa
     inte = int(hexa[2:],16)
     listdec.append(str(inte))
-    listdec.append(":")
+    listdec.append(" ")
     print "Decimal :" + str(inte)
     binary = bin(inte)
     listbin.append(binary)
-    listbin.append(":")
+    listbin.append(" ")
     print "Binary :" + binary
 print "Final hexadecimal- "+"".join(listhex)
 print "Final decimal- "+"".join(listdec)
